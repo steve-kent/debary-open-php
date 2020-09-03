@@ -1,0 +1,72 @@
+
+#logo {
+    text-align: center;
+    padding: 3em;
+
+}
+#logo img {
+    width: 100%
+}
+#title {
+    text-align: center;
+}
+
+#register {
+    font-size: 2em;
+}
+#live {
+    width: 100%;
+    height: 800px;
+}
+.alert {
+    margin: 0;
+}
+.clickable-row {
+    cursor: pointer;
+}
+.pad_me {
+    margin: 20px;
+}
+.sponsor_img{
+    transition: all .2s ease-in-out;
+}
+
+.sponsor_img:hover {
+    transform: scale(1.05);
+}
+
+.sponsor_img img {
+    max-width: 95%;
+}
+
+.sponsor_type {
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;
+}
+
+.googlemap {
+    border: 0;
+    width: 100%;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+/** Small devices (landscape phones, less than 768px)**/
+@media (max-width: 767.98px) {
+#logo {
+
+}
+
+}
+
+@media (min-width:992px) {
+    .table-sm td, .table-sm th {
+        padding: .75rem;
+    }
+}
