@@ -14,6 +14,7 @@
                 Become a Sponsor!
             </a>
         </div>
+        <!--
         <div class="sponsor_type row card-deck pad_me">
             <h1 class="title pad_me">Title Sponsors</h1>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
@@ -90,51 +91,6 @@
             </div>
         </div>
 
-        <!-- 
-                Daytona
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Daytona Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/groups/487605701319930/">
-                                <img src="images/sponsors/daytona.jpeg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        -->
-        <!-- 
-                NSB
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">New Smyrna Beach Disc Golf Club</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/pages/category/Sports---Recreation/New-Smyrna-Beach-Disc-Golf-Club-644060318977422/">
-                                <img src="images/sponsors/nsb.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        -->
-        <!-- ORLANDO
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Orlando Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://www.orlandodiscgolf.com/">
-                                <img src="images/sponsors/orlando.jpeg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        -->
-
 
         <div class="sponsor_type row align-items-stretch">
             <h1 class="title pad_me">Business Sponsors</h1>
@@ -187,100 +143,6 @@
                 </div>
             </div>
         </div>
-        <!--
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Barnett Law Firm</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://www.discgolflawyer.com">
-                                <img src="images/sponsors/barnett.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">ProActive Sports Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.pasdiscgolf.com/">
-                                <img src="images/sponsors/pas.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Dave's Painting</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/DaveRobertsPainting/">
-                                <img src="images/sponsors/daves.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">JustIn Time Sales</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <h1>JustIn Time Sales</h1>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Gary Greene LLC</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/garygreenellc/">
-                                <img src="images/sponsors/gg-llc.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Legacy Pavers</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://www.legacypaversllc.com/">
-                                <img src="images/sponsors/legacy.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Legacy Pavers</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                                <img src="images/sponsors/sammys.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Elite Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                                <img src="images/sponsors/elite.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
 
         <div class="sponsor_type row">
             <h1 class="title pad_me">Personal Sponsors</h1>
@@ -361,41 +223,9 @@
                     <div class="card-header">DDGC Fantasy Football Champion: Nathan Wiebe</div>
                 </div>
             </div>
-            <!--
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Kenny Contarino</div>
-                </div>
-            </div>           
-            
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">JOHNNYMAX</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">RoboSkwirl and Steve</div></div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Danny Voss</div>
-                </div>
-            </div>            
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">2018 DeBary Disc Golf Fantasy Football Champs</div>
-                    Danny Dutil and Nathan Weibe
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Thanks to all who made the new pads on Barwick possible</div>
-                    -Scott Grant
-                </div>
-            </div>
--->
         </div>
+
+-->
         <?php include 'footer.php'; ?>
 
     </div>

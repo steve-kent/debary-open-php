@@ -9,7 +9,8 @@
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <h1 class="text-center">Courses</h1>
+        <h1 class="text-center">Courses - TBD</h1>
+        <!--
         <hr>
         <div class="row">
             <div class="col-md-4 mx-auto">
@@ -547,43 +548,6 @@
             </tbody>
         </table>
         <br />
-        <!--
-        <table class="table table-sm table-striped table-hover">
-            <thead>
-            <tr>
-                <th scope="col">Hole</th>
-                <th scope="col">Tee</th>
-                <th scope="col">Pin</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">Hole 1</th>
-                <td>Alpha 1 long pad</td>
-                <td>Alpha 6 pin</td>
-            </tr>
-            <tr>
-                <th scope="row">Hole 2</th>
-                <td>Alpha 7 long pad</td>
-                <td>Alpha 7 pin </td>
-            </tr>
-            <tr>
-                <th scope="row">Hole 3</th>
-                <td>Alpha 8 short pad</td>
-                <td>Alpha 8 pin</td>
-            </tr>
-            <tr>
-                <th scope="row">Hole 4</th>
-                <td>Hole 9 short pad</td>
-                <td>Alpha 18 red pin</td>
-            </tr>
-            <tr>
-                <th scope="row">Hole 5</th>
-                <td>Alpha 1 short pad</td>
-                <td>Barwick 1 short pin</td>
-            </tr>
-            </tbody>
-        </table>
 -->
         <?php include 'footer.php'; ?>
     </div>

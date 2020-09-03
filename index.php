@@ -11,10 +11,12 @@
     <div class="container">
         <div class="row pad_me">
             <div class="col-md-6 col-sm-12" id="logo">
+                <!--
                 <a id="register" class="btn btn-outline-primary" href="live.php">
                     Live Scores!
                 </a>
-                <img src="images/DEBARY_OPEN_2019_FINAL.png" alt="DeBary Open 2019 Logo">
+-->
+                <img src="images/ddgc-logo_200.png" alt="DeBary Open 2019 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
                 <h1>Tournament Info</h1>

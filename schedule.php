@@ -14,31 +14,12 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-3">
-                    <div class="card-header">Friday November 29th</div>
+                    <div class="card-header">Saturday November 28th</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            12:30 - Early Check In
+                            8am - First Tee Time
                         </li>
-                        <li class="list-group-item">
-                            12:30 - Doubles sign up
-                        </li>
-                        <li class="list-group-item">
-                            Random Draw Best Shot Doubles
-                        </li>
-                        <li class="list-group-item">
-                            3:00 - Doubles Tee Time
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-header">Saturday November 30th</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            7:00-7:30 - Check In
-                        </li>
+<!--
                         <li class="list-group-item">
                             8:00 Players Meeting
                         </li>
@@ -51,17 +32,19 @@
                         <li class="list-group-item">
                             Round 2 Tee : TBD
                         </li>
+-->
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card mb-3">
-                    <div class="card-header">Sunday December 1st</div>
+                    <div class="card-header">Sunday November 29th</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            9:00 Round 3 Tee Time
+                            TBD
                         </li>
+                        <!--
                         <li class="list-group-item">
                             Lunch Provided
                         </li>
@@ -71,6 +54,7 @@
                         <li class="list-group-item">
                             Awards to follow
                         </li>
+-->
                     </ul>
                 </div>
             </div>
@@ -79,8 +63,9 @@
         <hr>
         <div class="row pad_me">
 
-                <h1 class="col-12 text-center">Tee Assignments Schedule</h1>
+                <h1 class="col-12 text-center">Tee Assignments Schedule - TBD</h1>
                 <br />
+                <!--
                 <small class="text-muted text-center col-12">
                     Barwick: All players play concrete pads<br />
                     Alpha: All players play the long pads<br />
@@ -128,46 +113,9 @@
                         <td>Alpha Red</td>
                         <td>Barwick</td>
                     </tr>
-                    <!--
-                    <tr>
-                        <th scope="row">MA40</th>
-                        <td>Alpha Long</td>
-                        <td>Barwick</td>
-                        <td>Alpha Long</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">MA50+</th>
-                        <td>Alpha Short</td>
-                        <td>Barwick</td>
-                        <td>Alpha Long</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">MA2/FA2</th>
-                        <td>Barwick</td>
-                        <td>Alpha Long</td>
-                        <td>Barwick</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">MA3/FA3</th>
-                        <td>Barwick</td>
-                        <td>Alpha Short</td>
-                        <td>Barwick</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">FA1</th>
-                        <td>Alpha Long</td>
-                        <td>Barwick</td>
-                        <td>Alpha Long</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">FA50</th>
-                        <td>Alpha Short</td>
-                        <td>Barwick</td>
-                        <td>Alpha Long</td>
-                    </tr>
-                    -->
                 </tbody>
             </table>
+-->
         </div>
 
         <?php include 'footer.php'; ?>
