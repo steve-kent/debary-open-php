@@ -16,7 +16,7 @@
                     Live Scores!
                 </a>
 -->
-                <img src="images/ddgc-logo_200.png" alt="DeBary Open 2019 Logo">
+                <img src="images/ddgc_logo.png" alt="DeBary Open 2019 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
                 <h1>Tournament Info</h1>
