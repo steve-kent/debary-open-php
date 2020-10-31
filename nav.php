@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="index.php">DeBary Open 2019
+        <a class="navbar-brand" href="index.php">DeBary Open 2020
         </a>
 
         <!-- Toggler/collapsibe Button -->

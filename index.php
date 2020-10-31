@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'header.php'; ?>
-    <title>DeBary Open</title>
+    <title>DeBary Open 2020</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
                     Live Scores!
                 </a>
 -->
-                <img src="images/ddgc_logo.png" alt="DeBary Open 2019 Logo">
+                <img src="images/DEBARY_OPEN_2020.png" alt="DeBary Open 2020 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
                 <h1>Tournament Info</h1>
