@@ -14,16 +14,15 @@
                 Become a Sponsor!
             </a>
         </div>
-        <!--
         <div class="sponsor_type row card-deck pad_me">
-            <h1 class="title pad_me">Title Sponsors</h1>
+            <h1 class="title pad_me">Tournament Sponsors</h1>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
                     <div class="card-header">Debary Disc Golf Club</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
                             <a href="http://debarydiscgolf.org">
-                                <img src="images/sponsors/ddgc.jpg" alt="Debary Disc Golf Logo">
+                                <img src="images/sponsors/2020/ddgc.jpg" alt="Debary Disc Golf Logo">
                             </a>
                         </div>
                     </div>
@@ -35,7 +34,7 @@
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
                             <a href="https://www.discgolfcenter.com/">
-                                <img src="images/sponsors/dgc.jpg" alt="Disc Golf Center Logo">
+                                <img src="images/sponsors/2020/dgc.png" alt="Disc Golf Center Logo">
                             </a>
                         </div>
                     </div>
@@ -47,7 +46,7 @@
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
                             <a href="http://central28beer.com/">
-                                <img src="images/sponsors/central28.png" alt="Central 28 Logo">
+                                <img src="images/sponsors/2020/c28.png" alt="Central 28 Logo">
                             </a>
                         </div>
                     </div>
@@ -55,11 +54,11 @@
             </div>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
-                    <div class="card-header">The Wilsten Group</div>
+                    <div class="card-header">DiscDot</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
-                            <a href="http://wilstenbuilds.com/">
-                                <img src="images/sponsors/wilstenklute.jpeg" alt="Wilsten Group Logo">
+                            <a href="https://discdotusa.com/">
+                                <img src="images/sponsors/2020/discDots.png" alt="DiscDot Logo">
                             </a>
                         </div>
                     </div>
@@ -71,19 +70,7 @@
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
                             <a href="https://www.innovadiscs.com/">
-                                <img src="images/sponsors/innova.jpg" alt="Innova Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Daytona Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/groups/487605701319930/">
-                                <img src="images/sponsors/daytona.jpeg">
+                                <img src="images/sponsors/2020/innova.png" alt="Innova Logo">
                             </a>
                         </div>
                     </div>
@@ -92,6 +79,7 @@
         </div>
 
 
+        <!--
         <div class="sponsor_type row align-items-stretch">
             <h1 class="title pad_me">Business Sponsors</h1>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
@@ -143,89 +131,32 @@
                 </div>
             </div>
         </div>
-
+-->
         <div class="sponsor_type row">
-            <h1 class="title pad_me">Personal Sponsors</h1>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Jon Cobra</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Hot Toddy</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Terry Hild</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Joey Van Duzee</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Lynda Voss</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Kody O'Neill</div>
-                </div>
-            </div>
+            <h1 class="title pad_me">Hole Sponsors</h1>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
                     <div class="card-header">Phillip Meacham</div>
                 </div>
             </div>
+        </div>
+<hr>
+        <div class="sponsor_type row">
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">Buddy Thornton</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Brock Mahaffey</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Justin Marsan</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Mandy Sierra</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Matt Schenk, DeBary DGC co-founder, PDGA#46730</div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Paul and Trace Kiersnowski</div>
-                </div>
-            </div>
-
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">Chris and Stacy Reichel</div>
-                </div>
-            </div>
-
-            <div class="sponsor col-lg-3 col-sm-4 mb-3">
-                <div class="card border-primary">
-                    <div class="card-header">DDGC Fantasy Football Champion: Nathan Wiebe</div>
+                    <div class="card-header">A special thanks to...</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Terry Hild</li>
+                        <li class="list-group-item">Susan Headrick</li>
+                        <li class="list-group-item">Victor Smith</li>
+                        <li class="list-group-item">Matt Schenk</li>
+                        <li class="list-group-item">Steve Kent</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
--->
+
         <?php include 'footer.php'; ?>
 
     </div>
