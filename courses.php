@@ -5,12 +5,26 @@
     <?php include 'header.php'; ?>
     <title>DeBary Open | Course Info</title>
 </head>
+<?php
+
+require('lib/csv_tablemaker.php');
+
+//Generate 1st table content
+$courseA = new CSVTableMaker();
+$courseA->startRow = 0;
+$courseA->startCol = 0;
+$courseA->endCol = 5;
+$courseA->linkColumn = 5;
+$courseA->baseLink = "images/courses/2020/";
+$courseA->caption = "  ";
+$courseA->fileName = "images/courses/2020/layout.csv";
+?>
 
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <h1 class="text-center">Courses - TBD</h1>
-        <!--
+        <h1 class="text-center">Courses</h1>
+
         <hr>
         <div class="row">
             <div class="col-md-4 mx-auto">
@@ -18,19 +32,7 @@
                     <div class="card-header">General Out of Bounds Info</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            On/Across Road any road is OB
-                        </li>
-                        <li class="list-group-item">
-                            Over any fence is OB
-                        </li>
-                        <li class="list-group-item">
-                            On/Across any sidewalk is OB
-                        </li>
-                        <li class="list-group-item">
-                            Alpha: All Water is Casual
-                        </li>
-                        <li class="list-group-item">
-                            Barwick: All Water is Casual
+                            All water is casual, unless marked OB
                         </li>
                     </ul>
                 </div>
@@ -38,8 +40,7 @@
         </div>
 
         <div class="row pad_me"></div>
-
-        <h1 class="text-center">Alpha Yellow</h1>
+        <h1 class="text-center">DeBary Open 2020 Course</h1>
         <hr>
         <div class="col-md-8 mx-auto">
             <div class="card">
@@ -48,6 +49,11 @@
         </div>
         <hr>
         <br />
+        <?php
+        echo $courseA->GetTable();
+        ?>
+        <!--
+
 
 
         <table class="table table-sm table-striped table-hover">
