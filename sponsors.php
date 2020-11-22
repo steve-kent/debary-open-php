@@ -76,6 +76,18 @@
                     </div>
                 </div>
             </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
+                    <div class="card-header">OTB Discs</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="https://otbdiscs.com/">
+                                <img src="images/sponsors/2020/otb.png" alt="OTB Discs Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -139,7 +151,23 @@
                     <div class="card-header">Phillip Meacham</div>
                 </div>
             </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Jon Cora</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">River City Chiropractic</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">DDGC Fantasy Football Champ: <br> Nathan Weibe</div>
+                </div>
+            </div>
         </div>
+
 <hr>
         <div class="sponsor_type row">
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
@@ -151,6 +179,8 @@
                         <li class="list-group-item">Victor Smith</li>
                         <li class="list-group-item">Matt Schenk</li>
                         <li class="list-group-item">Steve Kent</li>
+                        <li class="list-group-item">Buddy Thornton</li>
+                        <li class="list-group-item">John Fester</li>
                     </ul>
                 </div>
             </div>
