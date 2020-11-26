@@ -11,20 +11,23 @@
     <div class="container">
         <div class="row pad_me">
             <div class="col-md-6 col-sm-12" id="logo">
-            <button type="button" class="btn btn-outline-primary btn-sm">
-                        <a id="register" href="https://www.pdga.com/tour/event/47195">Tee Times</a>
-                </button>
-                <button type="button" class="btn btn-outline-primary btn-sm mt-2">
-                        <a id="register" href="pdga.com/score">
-                            Player Scoring <br>
-                            <span class="text-50">(Access Code: RCNP)</span>
-                        </a>
-                </button>
+                <!--
+                <a id="register" class="btn btn-outline-primary" href="live.php">
+                    Live Scores!
+                </a>
+-->
+            <a class="btn btn-outline-primary btn-lg" href="https://www.pdga.com/tour/event/47195">
+                    Tee Times
+                </a>
+                <a class="btn btn-outline-primary btn-lg mt-2" href="pdga.com/score">
+                    Player Scoring <br>
+                    <span class="text-50">(Access Code: RCNP)</small>
+                </a>
 
                 <img src="images/DEBARY_OPEN_2020.png" alt="DeBary Open 2020 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
-                <h1>Tournament Info</h1>
+                <h2>Tournament Info</h2>
                 <ul class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         November 28th and 29th
