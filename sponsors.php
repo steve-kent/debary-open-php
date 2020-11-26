@@ -158,12 +158,17 @@
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">River City Chiropractic</div>
+                    <div class="card-header">Harold Baerga</div>
                 </div>
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
                     <div class="card-header">DDGC Fantasy Football Champ: <br> Nathan Weibe</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-body"><img src="images/sponsors/2020/rcc.png" alt="River City Chiropractic" class="w-100"></div>
                 </div>
             </div>
         </div>
