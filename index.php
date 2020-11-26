@@ -11,11 +11,16 @@
     <div class="container">
         <div class="row pad_me">
             <div class="col-md-6 col-sm-12" id="logo">
-                <!--
-                <a id="register" class="btn btn-outline-primary" href="live.php">
-                    Live Scores!
-                </a>
--->
+            <button type="button" class="btn btn-outline-primary btn-sm">
+                        <a id="register" href="https://www.pdga.com/tour/event/47195">Tee Times</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm mt-2">
+                        <a id="register" href="pdga.com/score">
+                            Player Scoring <br>
+                            <span class="text-50">(Access Code: RCNP)</span>
+                        </a>
+                </button>
+
                 <img src="images/DEBARY_OPEN_2020.png" alt="DeBary Open 2020 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
@@ -40,7 +45,7 @@
                         AM Player pack / voucher payout
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        $750 added cash to Pro Payout
+                        $1,000 added cash to Pro Payout
                     </li>
                 </ul>
 
