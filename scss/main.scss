@@ -1,0 +1,17 @@
+
+// Our Custom sass code
+$theme-colors: (
+  "primary": green,
+  "danger": coral
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Used
+@import "../node_modules/bootstrap/scss/grid";
