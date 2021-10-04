@@ -24,7 +24,7 @@
                     <span class="text-50">(Access Code: RCNP)</small>
                 </a>
 
-                <img src="images/DEBARY_OPEN_2020.png" alt="DeBary Open 2020 Logo">
+                <img src="images/logo_2021_500.png" alt="DeBary Open 2020 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
                 <h1>Tournament Info</h1>
