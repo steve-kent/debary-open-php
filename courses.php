@@ -45,6 +45,7 @@ $courseA->fileName = "images/courses/2020/layout.csv";
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="alert alert-primary blockquote text-center"><strong>Click on holes below to see an overhead of the hole</strong></div>
+                <div class="blockquote text-center"><strong>Playing Yellow Baskets Only</strong></div>
             </div>
         </div>
         <hr>

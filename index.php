@@ -19,7 +19,7 @@
             <a class="btn btn-outline-primary btn-lg" href="https://www.pdga.com/tour/event/47195">
                     Tee Times
                 </a>
-                <a class="btn btn-outline-primary btn-lg mt-2" href="pdga.com/score">
+                <a class="btn btn-outline-primary btn-lg mt-2" href="https://www.pdga.com/score">
                     Player Scoring <br>
                     <span class="text-50">(Access Code: RCNP)</small>
                 </a>
@@ -27,7 +27,7 @@
                 <img src="images/DEBARY_OPEN_2020.png" alt="DeBary Open 2020 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
-                <h2>Tournament Info</h2>
+                <h1>Tournament Info</h1>
                 <ul class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         November 28th and 29th
