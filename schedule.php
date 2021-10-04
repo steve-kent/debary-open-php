@@ -14,13 +14,45 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-3">
-                    <div class="card-header">Tee Times (both days)</div>
+                    <div class="card-header">Friday, November 26, 2021</div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            7:30am - First Tee Time
+                        12:30pm - 3:00pm Early Check In
                         </li>
                         <li class="list-group-item">
-                            12PM - Last Tee Time
+                        2:00pm - 2:50pm Doubles Sign Up
+                        </li>
+                        <li class="list-group-item">
+                        3:00pm Random Draw Doubles
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-header">Saturday, November 27, 2021</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                        7:00am - 8:15am Check In
+                        </li>
+                        <li class="list-group-item">
+                        8:30am	Round 1 Tee Time
+                        </li>
+                        <li class="list-group-item">
+                        12:10pm	TBA 2nd round (Lunch not provided)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-header">Sunday, November 28, 2021</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                        9:00am	Round 3 Tee Time
+                        </li>
+                        <li class="list-group-item">
+                        1:10pm	Showcase (Lunch not provided) followed by awards
                         </li>
                     </ul>
                 </div>
@@ -40,21 +72,17 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row">All Pro Divisions</td>
-                        <td>Long Pads</td>
+                        <td scope="row">MPO, MP40, MP50, MA1</td>
+                        <td>Alpha long to Yellow, Barwick Red, Alpha Long to Yellow</td>
                     </tr>
                     <tr>
-                        <td scope="row">MA1</td>
-                        <td>Long Pads</td>
+                        <td scope="row">FPO, FA1, MA40</td>
+                        <td>Alpha short to Yellow, Barwick Red, Alpha Long to Yellow</td>
                     </tr>
                     <tr>
-                        <td scope="row">MA40</td>
-                        <td>Long Pads</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">All Other Divisions</td>
-                        <td>Short Pads</td>
-                    </tr>
+                        <td scope="row">MA50, MA2, FA2, MA3, FA3</td>
+                        <td>Barwick Red, Alpha Short to Yellow, Barwick Yellow</td>
+                    </tr>                    
                 </tbody>
             </table>
         </div>

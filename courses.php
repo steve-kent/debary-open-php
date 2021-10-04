@@ -6,7 +6,7 @@
     <title>DeBary Open | Course Info</title>
 </head>
 <?php
-
+/*
 require('lib/csv_tablemaker.php');
 
 //Generate 1st table content
@@ -18,6 +18,7 @@ $courseA->linkColumn = 5;
 $courseA->baseLink = "images/courses/2020/";
 $courseA->caption = "  ";
 $courseA->fileName = "images/courses/2020/layout.csv";
+*/
 ?>
 
 <body>
@@ -26,6 +27,9 @@ $courseA->fileName = "images/courses/2020/layout.csv";
         <h1 class="text-center">Courses</h1>
 
         <hr>
+        <h3 class="text-center">Info coming soon...</h3>
+
+        <!--
         <div class="row">
             <div class="col-md-4 mx-auto">
                 <div class="card mb-3 alert-danger">
@@ -51,8 +55,10 @@ $courseA->fileName = "images/courses/2020/layout.csv";
         <hr>
         <br />
         <?php
-        echo $courseA->GetTable();
+        // echo $courseA->GetTable();
         ?>
+
+-->
         <!--
 
 

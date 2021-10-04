@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'header.php'; ?>
-    <title>DeBary Open 2020</title>
+    <title>DeBary Open 2021</title>
 </head>
 
 <body>
@@ -11,11 +11,12 @@
     <div class="container">
         <div class="row pad_me">
             <div class="col-md-6 col-sm-12" id="logo">
-                <!--
-                <a id="register" class="btn btn-outline-primary" href="live.php">
-                    Live Scores!
+                
+                <a id="register" class="btn btn-primary mb-4 w-100" href="https://www.discgolfscene.com/tournaments/2021_DeBary_Open_presented_by_discgolfcenter_com_2021">
+                    Register
                 </a>
--->
+
+<!--
             <a class="btn btn-outline-primary btn-lg" href="https://www.pdga.com/tour/event/47195">
                     Tee Times
                 </a>
@@ -23,11 +24,14 @@
                     Player Scoring <br>
                     <span class="text-50">(Access Code: RCNP)</small>
                 </a>
-
-                <img src="images/logo_2021_500.png" alt="DeBary Open 2020 Logo">
+-->
+                <img src="images/logo_2021_500.png" alt="DeBary Open 2021 Logo">
             </div>
             <div id="title" class="col-md-6 col-sm-12 card">
                 <h1>Tournament Info</h1>
+                <h3>More coming soon...</h3>
+
+                <!--
                 <ul class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         November 28th and 29th
@@ -51,6 +55,7 @@
                         $1,000 added cash to Pro Payout
                     </li>
                 </ul>
+-->
 
             </div>
 

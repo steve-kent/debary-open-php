@@ -10,8 +10,8 @@
     <?php include 'nav.php'; ?>
     <div class="container">
         <div class="row pad_me">
-            <a id="sponsor" class="btn btn-outline-primary mx-auto" href="mailto:brianroberts2526@yahoo.com?subject=Interested%20in%20becoming%20a%20sponsor%20for%20the%202019%20Debary%20Open">
-                Become a Sponsor!
+            <a id="sponsor" class="btn btn-primary mx-auto w-50" href="mailto:brianroberts2526@yahoo.com?subject=Interested%20in%20becoming%20a%20sponsor%20for%20the%202019%20Debary%20Open">
+                <h1>Become a Sponsor!</h1>
             </a>
         </div>
         <div class="sponsor_type row card-deck pad_me">
@@ -52,6 +52,7 @@
                     </div>
                 </div>
             </div>
+            <!--
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
                     <div class="card-header">DiscDot</div>
@@ -89,6 +90,7 @@
                 </div>
             </div>
         </div>
+-->
 
 
         <!--
@@ -144,6 +146,8 @@
             </div>
         </div>
 -->
+
+<!--
         <div class="sponsor_type row">
             <h1 class="title pad_me">Hole Sponsors</h1>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
@@ -190,7 +194,7 @@
                 </div>
             </div>
         </div>
-
+-->
 
         <?php include 'footer.php'; ?>
 
