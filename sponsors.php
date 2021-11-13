@@ -42,6 +42,30 @@
             </div>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
+                    <div class="card-header">Dynamic Discs</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="https://www.dynamicdiscs.com/">
+                                <img src="images/sponsors/dd.jpg" alt="Dynamic Discs Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
+                    <div class="card-header">Friction Labs</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="https://frictionlabs.com/">
+                                <img src="images/sponsors/friction.png" alt="Friction Labs Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
                     <div class="card-header">Central 28 Brewery</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
@@ -52,131 +76,82 @@
                     </div>
                 </div>
             </div>
-            <!--
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
-                    <div class="card-header">DiscDot</div>
+                    <div class="card-header">City of DeBary</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
-                            <a href="https://discdotusa.com/">
-                                <img src="images/sponsors/2020/discDots.png" alt="DiscDot Logo">
+                            <a href="https://debary.org/">
+                                <img src="images/sponsors/2020/innova.png" alt="City of DeBary Logo">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Innova</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.innovadiscs.com/">
-                                <img src="images/sponsors/2020/innova.png" alt="Innova Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">OTB Discs</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://otbdiscs.com/">
-                                <img src="images/sponsors/2020/otb.png" alt="OTB Discs Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-
-
-        <!--
-        <div class="sponsor_type row align-items-stretch">
-            <h1 class="title pad_me">Business Sponsors</h1>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Violette's Kitchen</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.facebook.com/violetteskitchenllc/">
-                                <img src="images/sponsors/violette.png" alt="Violette's Kitchen Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Kristine Hernandez and Highmark Companies</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://www.highmarkcompanies.com/">
-                                <img src="images/sponsors/highmark.jpg" alt="Highmark Companies Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Martin Screen Services</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://martinscreenservicesfl.com/">
-                                <img src="images/sponsors/martin.jpg" alt="Martin Screen Services Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Paron Disc Golf</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="www.parondiscgolf.com">
-                                <img src="images/sponsors/paron.jpg" alt="Paron Disc Golf Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-
-<!--
         <div class="sponsor_type row">
             <h1 class="title pad_me">Hole Sponsors</h1>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">Phillip Meacham</div>
+                    <div class="card-header">Central Fl Womens DGC</div>
                 </div>
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">Jon Cora</div>
+                    <div class="card-header">NSB Disc Golf</div>
                 </div>
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">Harold Baerga</div>
+                    <div class="card-header">Orlando Disc Golf</div>
                 </div>
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">DDGC Fantasy Football Champ: <br> Nathan Weibe</div>
+                    <div class="card-header">Kenny Contarino</div>
                 </div>
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-body"><img src="images/sponsors/2020/rcc.png" alt="River City Chiropractic" class="w-100"></div>
+                    <div class="card-header">Lisa Privitere</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Brock Mahaffey</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">DiscDot</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Chris and Stacy Reichel</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Danny Voss</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">The Black Sheep Society</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Matt Schenk</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">River City Chiropractor </div>
                 </div>
             </div>
         </div>
-
+<!--
 <hr>
         <div class="sponsor_type row">
             <div class="sponsor col-lg-3 col-sm-4 mb-3">

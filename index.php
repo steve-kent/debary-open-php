@@ -11,10 +11,6 @@
     <div class="container">
         <div class="row pad_me">
             <div class="col-md-6 col-sm-12" id="logo">
-                
-                <a id="register" class="btn btn-primary mb-4 w-100" href="https://www.discgolfscene.com/tournaments/2021_DeBary_Open_presented_by_discgolfcenter_com_2021">
-                    Register
-                </a>
 
 <!--
             <a class="btn btn-outline-primary btn-lg" href="https://www.pdga.com/tour/event/47195">
@@ -27,9 +23,15 @@
 -->
                 <img src="images/logo_2021_500.png" alt="DeBary Open 2021 Logo">
             </div>
-            <div id="title" class="col-md-6 col-sm-12 card">
+            <div id="title" class="col-md-6 col-sm-12">
+
+            <a id="register" class="btn btn-primary mb-4 w-100" href="https://www.discgolfscene.com/tournaments/2021_DeBary_Open_presented_by_discgolfcenter_com_2021">
+                    Register
+                </a>
+                <!--
                 <h1>Tournament Info</h1>
                 <h3>More coming soon...</h3>
+            -->
 
                 <!--
                 <ul class="list-group">

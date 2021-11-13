@@ -5,10 +5,12 @@ require('csv-exception.php');
 class CSVTableMaker
 {
     private $startRow = 0;
+    private $endRow = 0;
     private $startCol = 0;
     private $endCol = 0;
     private $caption;
     private $fileName;
+    private $title = "";
     private $linkColumn;
     private $baseLink = "";
     public $returnContent = "";
@@ -22,7 +24,8 @@ class CSVTableMaker
     // Create the start of the HTML table
     private function StartTable()
     {
-        $this->returnContent = "<table class='table table-sm table-striped table-hover'>";
+        $this->returnContent = "<h1 class='text-center'>$this->title</h1>";
+        $this->returnContent .= "<table class='table table-sm table-striped table-hover'>";
         $this->returnContent .= "<caption>$this->caption</caption>";
     }
 
@@ -52,8 +55,8 @@ class CSVTableMaker
     // Read each row from the csv file and call the apropriate function
     private function WriteTable($tableData)
     {
-        $totalRows = count($tableData);
-        for($row = 0; $row < $totalRows; $row++)
+        // $totalRows = count($tableData);
+        for($row = 0; $row < $this->endRow; $row++)
         {
             if ($row > $this->startRow)
             {
@@ -69,8 +72,11 @@ class CSVTableMaker
     // Write the row of the table that is passed in
     private function WriteRow($row, $rowNumber)
     {
-        $link = $this->baseLink . strval($rowNumber) . '.jpg';
-        $this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
+        //$link = $this->baseLink . strval($rowNumber) . '.jpg';
+        //$this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
+/******************************************UPDATE TO THE ABOVE WHEN IMAGES ARE READY ************************************/
+        $this->returnContent .= "<tr>";
+
         for($col = $this->startCol; $col < $this->endCol; $col++)
         {
             $colData = htmlspecialchars($row[$col]);

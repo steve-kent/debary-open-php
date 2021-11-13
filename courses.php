@@ -6,30 +6,56 @@
     <title>DeBary Open | Course Info</title>
 </head>
 <?php
-/*
+
 require('lib/csv_tablemaker.php');
 
 //Generate 1st table content
 $courseA = new CSVTableMaker();
-$courseA->startRow = 0;
+$courseA->startRow = 1;
+$courseA->endRow = 21;
 $courseA->startCol = 0;
-$courseA->endCol = 5;
-$courseA->linkColumn = 5;
+$courseA->endCol = 3;
 $courseA->baseLink = "images/courses/2020/";
-$courseA->caption = "  ";
-$courseA->fileName = "images/courses/2020/layout.csv";
-*/
+$courseA->title = "Alpha Short to Yellow";
+$courseA->fileName = "course/2021ayout.csv";
+
+//Generate 2nd table content
+$courseB = new CSVTableMaker();
+$courseB->startRow = 23;
+$courseB->endRow = 43;
+$courseB->startCol = 0;
+$courseB->endCol = 3;
+$courseB->baseLink = "images/courses/2020/";
+$courseB->title = "Alpha Long to Yellow";
+$courseB->fileName = "course/2021ayout.csv";
+
+//Generate 1st table content
+$courseC = new CSVTableMaker();
+$courseC->startRow = 45;
+$courseC->endRow = 65;
+$courseC->startCol = 0;
+$courseC->endCol = 3;
+$courseC->baseLink = "images/courses/2020/";
+$courseC->title = "Barwick Red";
+$courseC->fileName = "course/2021ayout.csv";
+
+//Generate 1st table content
+$courseD = new CSVTableMaker();
+$courseD->startRow = 67;
+$courseD->endRow = 87;
+$courseD->startCol = 0;
+$courseD->endCol = 3;
+$courseD->baseLink = "images/courses/2020/";
+$courseD->title = "Barwick Yellow";
+$courseD->fileName = "course/2021ayout.csv";
+
 ?>
 
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <h1 class="text-center">Courses</h1>
-
+        <h1 class="text-center">DeBary Open 2021 Courses</h1>
         <hr>
-        <h3 class="text-center">Info coming soon...</h3>
-
-        <!--
         <div class="row">
             <div class="col-md-4 mx-auto">
                 <div class="card mb-3 alert-danger">
@@ -38,27 +64,41 @@ $courseA->fileName = "images/courses/2020/layout.csv";
                         <li class="list-group-item">
                             All water is casual, unless marked OB
                         </li>
+                        <li class="list-group-item">Over fence OB and on/across entry road OB</li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <div class="row pad_me"></div>
-        <h1 class="text-center">DeBary Open 2020 Course</h1>
+        <!--   TODO: REMOVE COMMENT WHEN LINKS ARE ADDED ***********************************************************
         <hr>
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="alert alert-primary blockquote text-center"><strong>Click on holes below to see an overhead of the hole</strong></div>
-                <div class="blockquote text-center"><strong>Playing Yellow Baskets Only</strong></div>
             </div>
         </div>
+
+-->
         <hr>
         <br />
         <?php
-        // echo $courseA->GetTable();
+         echo $courseA->GetTable();
         ?>
 
--->
+<br />
+        <?php
+         echo $courseB->GetTable();
+        ?>
+
+<br />
+        <?php
+         echo $courseC->GetTable();
+        ?>
+
+<br />
+        <?php
+         echo $courseD->GetTable();
+        ?>
+
         <!--
 
 

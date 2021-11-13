@@ -52,7 +52,7 @@
                         9:00am	Round 3 Tee Time
                         </li>
                         <li class="list-group-item">
-                        1:10pm	Showcase (Lunch not provided) followed by awards
+                        1:10pm	Awards followed by Showcase (Lunch not provided)
                         </li>
                     </ul>
                 </div>
