@@ -11,10 +11,6 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Tournament</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="schedule.php">Schedule</a>
                 </li>
