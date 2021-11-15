@@ -66,23 +66,37 @@
             <table class="table table-striped table-hover">
                 <thead>
                     <tr>
-                        <th scope="col">Division</th>
-                        <th scope="col">Tee Pad</th>
+                        <th scope="col">Divisions</th>
+                        <th scope="col">Round 1</th>
+                        <th scope="col">Round 2</th>
+                        <th scope="col">Round 3</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td scope="row">MPO, MP40, MP50, MA1</td>
-                        <td>Alpha long to Yellow, Barwick Red, Alpha Long to Yellow</td>
+                        <td>Alpha Long to Yellow</td>
+                        <td>Barwick Red</td>
+                        <td>Alpha Long to Yellow</td>
                     </tr>
                     <tr>
                         <td scope="row">FPO, FA1, MA40</td>
-                        <td>Alpha short to Yellow, Barwick Red, Alpha Long to Yellow</td>
+                        <td>Alpha Short to Yellow</td>
+                        <td>Barwick Red</td>
+                        <td>Alpha Short to Yellow</td>
                     </tr>
                     <tr>
-                        <td scope="row">MA50, MA2, FA2, MA3, FA3</td>
-                        <td>Barwick Red, Alpha Short to Yellow, Barwick Yellow</td>
-                    </tr>                    
+                        <td scope="row">MA50, MA2, MA3</td>
+                        <td>Barwick Red</td>
+                        <td>Alpha Short to Yellow</td>
+                        <td>Barwick Yellow</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">FA2, FA3</td>
+                        <td>Barwick Red</td>
+                        <td>Alpha Short to Yellow</td>
+                        <td>Barwick Red</td>
+                    </tr>   
                 </tbody>
             </table>
         </div>
