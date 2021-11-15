@@ -82,7 +82,7 @@
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
                             <a href="https://debary.org/">
-                                <img src="images/sponsors/2020/innova.png" alt="City of DeBary Logo">
+                                <img src="images/sponsors/cityofdebary.jpg" alt="City of DeBary Logo">
                             </a>
                         </div>
                     </div>
