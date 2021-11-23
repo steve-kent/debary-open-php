@@ -10,7 +10,7 @@
     <?php include 'nav.php'; ?>
     <div class="container">
         <div class="row pad_me">
-            <div class="col-md-6 col-sm-12" id="logo">
+            <div class="col-12" id="logo">
 
 <!--
             <a class="btn btn-outline-primary btn-lg" href="https://www.pdga.com/tour/event/47195">
@@ -23,12 +23,16 @@
 -->
                 <img src="images/logo_2021_500.png" alt="DeBary Open 2021 Logo">
             </div>
-            <div id="title" class="col-md-6 col-sm-12">
-
+            <div id="title" class="col-12">
+                <div class="row">
+                    <h2 class="col-12 text-center">Parking Map</h2>
+                    <img class="col-12 text center" src="images/courses/2021/parking.jpg" alt="Parking Map">
+                </div>
+<!--
             <a id="register" class="btn btn-primary mb-4 w-100" href="https://www.discgolfscene.com/tournaments/2021_DeBary_Open_presented_by_discgolfcenter_com_2021">
                     Register
                 </a>
-                <!--
+                
                 <h1>Tournament Info</h1>
                 <h3>More coming soon...</h3>
             -->
