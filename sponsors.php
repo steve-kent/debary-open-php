@@ -147,7 +147,22 @@
             </div>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
                 <div class="card border-primary">
-                    <div class="card-header">River City Chiropractor </div>
+                    <div class="card-header">River City Chiropractor</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">The Halls</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Ohana Health</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Chuck and Selenia Jaqueth</div>
                 </div>
             </div>
         </div>
