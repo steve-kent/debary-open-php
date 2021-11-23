@@ -6,7 +6,7 @@ Hole,Distance,OB
 4,260,
 5,259,
 6,252,
-7,645,String line / Mando left, DZ is short pad"
+7,645,Mando left- DZ is short pad. String line- go to DZ.
 8,302,String line
 9,210,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 10,267,String line (from hole 8)
@@ -28,7 +28,7 @@ Hole,Distance,OB
 4,260,
 5,294,
 6,340,
-7,764,String line / Mando left, DZ is short pad"
+7,764,Mando left- DZ is short pad. String line- go to DZ.
 8,341,String line
 9,260,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 10,294,String line (from hole 8)
@@ -57,7 +57,7 @@ Hole,Distance,OB
 11,195,String line
 12,315,
 13,250,String line
-14,198,
+14,198,On sidewalk/handicap parking is OB
 15,282,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 16,369,String line
 17,215,
@@ -79,7 +79,7 @@ Hole,Distance,OB
 11,320,String line
 12,415,
 13,306,String line
-14,253,
+14,253,On sidewalk/handicap parking is OB
 15,270,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 16,393,String line
 17,240,

@@ -72,10 +72,10 @@ class CSVTableMaker
     // Write the row of the table that is passed in
     private function WriteRow($row, $rowNumber)
     {
-        //$link = $this->baseLink . strval($rowNumber) . '.jpg';
-        //$this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
+        $link = $this->baseLink . strval($row[$this->linkColumn]) . '.jpg';
+        $this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
 /******************************************UPDATE TO THE ABOVE WHEN IMAGES ARE READY ************************************/
-        $this->returnContent .= "<tr>";
+        //$this->returnContent .= "<tr>";
 
         for($col = $this->startCol; $col < $this->endCol; $col++)
         {

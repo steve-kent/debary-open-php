@@ -15,9 +15,10 @@ $courseA->startRow = 1;
 $courseA->endRow = 21;
 $courseA->startCol = 0;
 $courseA->endCol = 3;
-$courseA->baseLink = "images/courses/2020/";
+$courseA->baseLink = "images/courses/2021/alpha/hole";
 $courseA->title = "Alpha Short to Yellow";
 $courseA->fileName = "course/2021ayout.csv";
+$courseA->linkColumn = 0;
 
 //Generate 2nd table content
 $courseB = new CSVTableMaker();
@@ -25,9 +26,10 @@ $courseB->startRow = 23;
 $courseB->endRow = 43;
 $courseB->startCol = 0;
 $courseB->endCol = 3;
-$courseB->baseLink = "images/courses/2020/";
+$courseB->baseLink = "images/courses/2021/alpha/hole";
 $courseB->title = "Alpha Long to Yellow";
 $courseB->fileName = "course/2021ayout.csv";
+$courseB->linkColumn = 0;
 
 //Generate 1st table content
 $courseC = new CSVTableMaker();
@@ -35,9 +37,10 @@ $courseC->startRow = 45;
 $courseC->endRow = 65;
 $courseC->startCol = 0;
 $courseC->endCol = 3;
-$courseC->baseLink = "images/courses/2020/";
+$courseC->baseLink = "images/courses/2021/barwick/hole";
 $courseC->title = "Barwick Red";
 $courseC->fileName = "course/2021ayout.csv";
+$courseC->linkColumn = 0;
 
 //Generate 1st table content
 $courseD = new CSVTableMaker();
@@ -45,9 +48,10 @@ $courseD->startRow = 67;
 $courseD->endRow = 87;
 $courseD->startCol = 0;
 $courseD->endCol = 3;
-$courseD->baseLink = "images/courses/2020/";
+$courseD->baseLink = "images/courses/2021/barwick/hole";
 $courseD->title = "Barwick Yellow";
 $courseD->fileName = "course/2021ayout.csv";
+$courseD->linkColumn = 0;
 
 ?>
 
@@ -69,15 +73,12 @@ $courseD->fileName = "course/2021ayout.csv";
                 </div>
             </div>
         </div>
-        <!--   TODO: REMOVE COMMENT WHEN LINKS ARE ADDED ***********************************************************
         <hr>
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="alert alert-primary blockquote text-center"><strong>Click on holes below to see an overhead of the hole</strong></div>
             </div>
         </div>
-
--->
         <hr>
         <br />
         <?php
