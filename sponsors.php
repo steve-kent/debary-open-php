@@ -165,6 +165,11 @@
                     <div class="card-header">Chuck and Selenia Jaqueth</div>
                 </div>
             </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Mike Skees</div>
+                </div>
+            </div>
         </div>
 <!--
 <hr>

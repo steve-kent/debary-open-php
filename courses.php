@@ -65,10 +65,9 @@ $courseD->linkColumn = 0;
                 <div class="card mb-3 alert-danger">
                     <div class="card-header">General Out of Bounds Info</div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            All water is casual, unless marked OB
-                        </li>
+                        <li class="list-group-item">All water is casual, unless marked OB</li>
                         <li class="list-group-item">Over fence OB and on/across entry road OB</li>
+                        <li class="list-group-item">Any strung areas OB</li>
                     </ul>
                 </div>
             </div>
@@ -81,25 +80,28 @@ $courseD->linkColumn = 0;
         </div>
         <hr>
         <br />
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
         <?php
          echo $courseA->GetTable();
         ?>
-
-<br />
+        </div>
+        <div class="col-lg-6 col-md-12">
         <?php
          echo $courseB->GetTable();
         ?>
-
-<br />
+</div>
+        <div class="col-lg-6 col-md-12">
         <?php
          echo $courseC->GetTable();
         ?>
-
-<br />
+</div>
+        <div class="col-lg-6 col-md-12">
         <?php
          echo $courseD->GetTable();
         ?>
-
+        </div>
+</div>
         <!--
 
 

@@ -1,19 +1,19 @@
 ,Both course,"Over fence OB, on/across entry road OB, water casual "
-Hole,Distance,OB
+Hole,Distance,Info/OB
 1,257,String line
 2,424,
 3,294,String line
 4,260,
 5,259,
 6,252,
-7,645,Mando left- DZ is short pad. String line- go to DZ.
+7,645,Mando left- DZ is short pad. String line go to DZ1, string line again go to DZ2.
 8,302,String line
 9,210,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 10,267,String line (from hole 8)
 11,270,
 12,382,
 13,405,
-A,230,
+A,230,Only one pad
 14,387,
 15,225,
 16,310,
@@ -21,21 +21,21 @@ A,230,
 18,395,String line
 ,,
 ,,
-Hole,Distance,OB
+Hole,Distance,Info/OB
 1,346,String line
 2,489,
 3,347,String line
 4,260,
 5,294,
 6,340,
-7,764,Mando left- DZ is short pad. String line- go to DZ.
+7,764,Mando left- DZ is short pad. String line go to DZ1, string line again go to DZ2.
 8,341,String line
-9,260,Island Green. Miss island go to DZ. Normal OB from DZ and island 
+9,260,Island Green. Miss island go to DZ. Normal OB from DZ and island.
 10,294,String line (from hole 8)
 11,335,
 12,530,
 13,480,
-A,230,
+A,230,Only one pad
 14,450,
 15,250,
 16,355,
@@ -43,7 +43,7 @@ A,230,
 18,468,String line
 ,,
 ,,
-Hole,Distance,OB
+Hole,Distance,Info/OB
 1,435,
 2,306,On/across sidewalk
 3,156,
@@ -60,12 +60,12 @@ Hole,Distance,OB
 14,198,On sidewalk/handicap parking is OB
 15,282,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 16,369,String line
-17,215,
+17,215,String line
 18,565,
-19,300,Wood fence is NOT OB
+19,240,Only one basket. Wood fence is NOT OB
 ,,
 ,,
-Hole,Distance,OB
+Hole,Distance,Info/OB
 1,465,
 2,285,On/across sidewalk
 3,168,
@@ -82,6 +82,6 @@ Hole,Distance,OB
 14,253,On sidewalk/handicap parking is OB
 15,270,Island Green. Miss island go to DZ. Normal OB from DZ and island 
 16,393,String line
-17,240,
+17,240,String line
 18,595,
-19,300,Wood fence is NOT OB
+19,240,Only one basket. Wood fence is NOT OB
