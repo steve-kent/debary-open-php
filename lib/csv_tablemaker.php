@@ -24,7 +24,7 @@ class CSVTableMaker
     // Create the start of the HTML table
     private function StartTable()
     {
-        $this->returnContent = "<h1 class='text-center'>$this->title</h1>";
+        $this->returnContent = "<h2 class='text-center w-100'>$this->title</h2>";
         $this->returnContent .= "<table class='table table-sm table-striped table-hover'>";
         $this->returnContent .= "<caption>$this->caption</caption>";
     }
@@ -72,10 +72,10 @@ class CSVTableMaker
     // Write the row of the table that is passed in
     private function WriteRow($row, $rowNumber)
     {
-        $link = $this->baseLink . strval($row[$this->linkColumn]) . '.jpg';
-        $this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
+        //$link = $this->baseLink . strval($row[$this->linkColumn]) . '.jpg';
+        //$this->returnContent .= "<tr class='clickable-row' data-href='$link'>";
 /******************************************UPDATE TO THE ABOVE WHEN IMAGES ARE READY ************************************/
-        //$this->returnContent .= "<tr>";
+        $this->returnContent .= "<tr>";
 
         for($col = $this->startCol; $col < $this->endCol; $col++)
         {

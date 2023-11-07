@@ -9,25 +9,29 @@
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <div class="row pad_me">
-            <a id="sponsor" class="btn btn-primary mx-auto w-50" href="mailto:brianroberts2526@yahoo.com?subject=Interested%20in%20becoming%20a%20sponsor%20for%20the%202019%20Debary%20Open">
-                <h1>Become a Sponsor!</h1>
-            </a>
-        </div>
-        <div class="sponsor_type row card-deck pad_me">
-            <h1 class="title pad_me">Tournament Sponsors</h1>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Debary Disc Golf Club</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://debarydiscgolf.org">
-                                <img src="images/sponsors/2020/ddgc.jpg" alt="Debary Disc Golf Logo">
-                            </a>
-                        </div>
+        <div class="row justify-content-center">
+            <div class="col col-lg-6 col-md-8  mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        DeBary Open 2022 Hole Sponsorship
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Become a Hole Sponsor</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cost: $35 (includes BOTH weekends)</li>
+                        <li class="list-group-item">You will get a sign on a hole with the text and/or logo that you provide</li>
+                        <li class="list-group-item">Click the Get Started button below pay</li>
+                        <li class="list-group-item">Send your text and/or logo to sponsorships@debarydiscgolf.org</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://py.pl/16ubva" class="btn btn-primary">Get Started!</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="sponsor_type row card-deck pad_me">
+            <h1 class="title pad_me">Tournament Sponsors</h1>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
                     <div class="card-header">Disc Golf Center</div>
@@ -35,30 +39,6 @@
                         <div class="sponsor_img">
                             <a href="https://www.discgolfcenter.com/">
                                 <img src="images/sponsors/2020/dgc.png" alt="Disc Golf Center Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Dynamic Discs</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.dynamicdiscs.com/">
-                                <img src="images/sponsors/dd.jpg" alt="Dynamic Discs Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Friction Labs</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://frictionlabs.com/">
-                                <img src="images/sponsors/friction.png" alt="Friction Labs Logo">
                             </a>
                         </div>
                     </div>
@@ -78,6 +58,44 @@
             </div>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card border-primary h-100">
+                    <div class="card-header">Prodigy</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="https://www.prodigydisc.com/">
+                                <img src="images/sponsors/prodigy.jpg" alt="Prodigy Disc">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
+                    <div class="card-header">Construction Unlimited</div>
+                    <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                        <div class="sponsor_img col-12">
+                            <a href="https://www.curoof.com/" class="col-12">
+                                <img src="images/sponsors/Construction_Unlimited.webp" alt="Construction Unlimited Logo">
+                            </a>
+                        </div>
+                        <div class="row"><p class="col-12">For your roof needs call Greg <a href="tel:3025459303">302-545-9303</a></p></div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
+                    <div class="card-header">Debary Disc Golf Club</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="http://debarydiscgolf.org">
+                                <img src="images/sponsors/2020/ddgc.jpg" alt="Debary Disc Golf Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card border-primary h-100">
                     <div class="card-header">City of DeBary</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
@@ -88,6 +106,11 @@
                     </div>
                 </div>
             </div>
+            
+-->
+        </div>
+        
+        <!-- Hole Sponsors ****
         <div class="sponsor_type row">
             <h1 class="title pad_me">Hole Sponsors</h1>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
@@ -171,7 +194,9 @@
                 </div>
             </div>
         </div>
-<!--
+
+-->
+        <!--
 <hr>
         <div class="sponsor_type row">
             <div class="sponsor col-lg-3 col-sm-4 mb-3">

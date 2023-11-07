@@ -58,6 +58,22 @@ h1 {
     width: 100%;
 }
 
+.nav-pills .nav-link {
+    color: #00519a;
+    border-color: #00519a;
+    font-size: 1.25rem;
+    border: 1px solid;
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #00519a;
+    border-color: #00519a;
+    border: 0;
+}
+
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 

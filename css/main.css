@@ -28,9 +28,9 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: green;
+  --bs-primary: #00519a;
   --bs-danger: coral;
-  --bs-primary-rgb: 0, 128, 0;
+  --bs-primary-rgb: 0, 81, 154;
   --bs-danger-rgb: 255, 127, 80;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -2911,32 +2911,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: green;
-  border-color: green;
+  background-color: #00519a;
+  border-color: #00519a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #006d00;
-  border-color: #006600;
+  background-color: #004583;
+  border-color: #00417b;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #006d00;
-  border-color: #006600;
-  box-shadow: 0 0 0 0.25rem rgba(38, 147, 38, 0.5);
+  background-color: #004583;
+  border-color: #00417b;
+  box-shadow: 0 0 0 0.25rem rgba(38, 107, 169, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #006600;
-  border-color: #006000;
+  background-color: #00417b;
+  border-color: #003d74;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(38, 147, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(38, 107, 169, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: green;
-  border-color: green;
+  background-color: #00519a;
+  border-color: #00519a;
 }
 
 .btn-danger {
@@ -2970,27 +2970,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: green;
-  border-color: green;
+  color: #00519a;
+  border-color: #00519a;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: green;
-  border-color: green;
+  background-color: #00519a;
+  border-color: #00519a;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 128, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 81, 154, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: green;
-  border-color: green;
+  background-color: #00519a;
+  border-color: #00519a;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 128, 0, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 81, 154, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: green;
+  color: #00519a;
   background-color: transparent;
 }
 
@@ -4483,12 +4483,12 @@ textarea.form-control-lg {
 }
 
 .alert-primary {
-  color: #004d00;
-  background-color: #cce6cc;
-  border-color: #b3d9b3;
+  color: #00315c;
+  background-color: #ccdceb;
+  border-color: #b3cbe1;
 }
 .alert-primary .alert-link {
-  color: #003e00;
+  color: #00274a;
 }
 
 .alert-danger {
@@ -4768,17 +4768,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-primary {
-  color: #004d00;
-  background-color: #cce6cc;
+  color: #00315c;
+  background-color: #ccdceb;
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #004d00;
-  background-color: #b8cfb8;
+  color: #00315c;
+  background-color: #b8c6d4;
 }
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #004d00;
-  border-color: #004d00;
+  background-color: #00315c;
+  border-color: #00315c;
 }
 
 .list-group-item-danger {
@@ -5795,10 +5795,10 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: green;
+  color: #00519a;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #006600;
+  color: #00417b;
 }
 
 .link-danger {
@@ -6199,7 +6199,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color: green !important;
+  border-color: #00519a !important;
 }
 
 .border-danger {

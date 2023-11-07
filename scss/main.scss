@@ -1,10 +1,12 @@
 
 // Our Custom sass code
 $theme-colors: (
-  "primary": green,
+  "primary": #00519a,
   "danger": coral
 );
 
+// Can run this command to compile the scss files
+// sass scss/main.scss css/main.css
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

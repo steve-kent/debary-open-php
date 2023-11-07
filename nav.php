@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="index.php">DeBary Open 2021
+        <a class="navbar-brand" href="index.php">DeBary Open 2022
         </a>
 
         <!-- Toggler/collapsibe Button -->
@@ -17,9 +17,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="courses.php">Course Info</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link" href="sponsors.php">Sponsors</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>

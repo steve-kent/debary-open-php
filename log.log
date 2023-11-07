@@ -1,0 +1,64 @@
+2022-09-08T21:45:07.2600123Z,Updating submodules.,33636ebc-4707-4010-bcb7-d4e5feb925f5,0
+2022-09-08T21:45:08.4015775Z,Preparing deployment for commit id '9f824896-9'.,f4c303f2-fee8-42f3-bd3e-cdd819fb7c65,0
+2022-09-08T21:45:08.7422651Z,PreDeployment: context.CleanOutputPath False,10120494-beee-4b41-8419-bccbc47a777b,0
+2022-09-08T21:45:08.9080940Z,PreDeployment: context.OutputPath /home/site/wwwroot,1194e528-6e82-477a-828f-1af49c96cfb2,0
+2022-09-08T21:45:09.0857050Z,Generating deployment script.,39c69d87-ca14-4fce-8506-54ce8f82a5aa,0
+	2022-09-08T21:45:09.1131803Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "/tmp/zipdeploy/extracted" -o "/home/site/deployments/tools" --basic --sitePath "/tmp/zipdeploy/extracted"').,,0
+2022-09-08T21:45:09.2620449Z,Running deployment command...,77feecc7-b00b-4a37-919c-11236c6dd7c4,0
+	2022-09-08T21:45:09.2791426Z,Command: "/home/site/deployments/tools/deploy.sh",,0
+	2022-09-08T21:45:09.5307742Z,Handling Basic Web Site deployment.,,0
+	2022-09-08T21:45:09.8545908Z,Kudu sync from: '/tmp/zipdeploy/extracted' to: '/home/site/wwwroot',,0
+	2022-09-08T21:45:09.9724618Z,Copying file: '.gitignore',,0
+	2022-09-08T21:45:10.0184806Z,Copying file: 'error_log',,0
+	2022-09-08T21:45:10.0697783Z,Ignoring: .git,,0
+	2022-09-08T21:45:10.1135364Z,Copying file: '.github/workflows/master_ddgclamp.yml',,0
+	2022-09-08T21:45:10.1749719Z,Copying file: 'db/DbTalker.php',,0
+	2022-09-08T21:45:10.2259796Z,Copying file: 'lib/AnnouncementHelper.php',,0
+	2022-09-08T21:45:10.2855003Z,Copying file: 'lib/AuthHelper.php',,0
+	2022-09-08T21:45:10.3483430Z,Copying file: 'lib/EventHelper.php',,0
+	2022-09-08T21:45:10.3852342Z,Copying file: 'lib/HandicapHelper.php',,0
+	2022-09-08T21:45:10.4305283Z,Copying file: 'lib/LinkedTableMaker.php',,0
+	2022-09-08T21:45:10.5041826Z,Copying file: 'lib/PlayerHelper.php',,0
+	2022-09-08T21:45:10.5411842Z,Copying file: 'lib/TableMaker.php',,0
+	2022-09-08T21:45:10.5852000Z,Copying file: 'lib/csv-exception.php',,0
+	2022-09-08T21:45:10.6297274Z,Copying file: 'lib/csv_tablemaker.php',,0
+	2022-09-08T21:45:10.6929112Z,Copying file: 'lib/validator.php',,0
+	2022-09-08T21:45:10.7276638Z,Copying file: 'lib/war-update.csv',,0
+	2022-09-08T21:45:10.7788378Z,Copying file: 'lib/war.csv',,0
+	2022-09-08T21:45:10.7954158Z,Copying file: 'lib/war2020layout.csv',,0
+	2022-09-08T21:45:10.8153590Z,Copying file: 'models/Player.php',,0
+	2022-09-08T21:45:10.8619221Z,Copying file: 'public_html/MembersTables.php',,0
+	2022-09-08T21:45:10.8907643Z,Copying file: 'public_html/add_announcement.php',,0
+	2022-09-08T21:45:10.9227738Z,Copying file: 'public_html/add_event.php',,0
+	2022-09-08T21:45:11.0028815Z,Copying file: 'public_html/add_player.php',,0
+	2022-09-08T21:45:11.0400227Z,Copying file: 'public_html/add_score.php',,0
+	2022-09-08T21:45:11.0721296Z,Copying file: 'public_html/calendar.php',,0
+	2022-09-08T21:45:11.1460485Z,Copying file: 'public_html/courses.php',,0
+	2022-09-08T21:45:11.1827066Z,Copying file: 'public_html/doScoring.php',,0
+	2022-09-08T21:45:11.2033279Z,Copying file: 'public_html/edit_announcement.php',,0
+	2022-09-08T21:45:11.2690071Z,Copying file: 'public_html/edit_event.php',,0
+	2022-09-08T21:45:11.3028049Z,Copying file: 'public_html/edit_player.php',,0
+	2022-09-08T21:45:11.3614844Z,Copying file: 'public_html/edit_score.php',,0
+	2022-09-08T21:45:11.4301420Z,Copying file: 'public_html/error_log',,0
+	2022-09-08T21:45:11.4909850Z,Copying file: 'public_html/expiring_members.php',,0
+	2022-09-08T21:45:11.5114659Z,Copying file: 'public_html/index.php',,0
+	2022-09-08T21:45:11.5575654Z,Copying file: 'public_html/join.php',,0
+	2022-09-08T21:45:11.5803296Z,Copying file: 'public_html/links.php',,0
+	2022-09-08T21:45:11.6218346Z,Copying file: 'public_html/login.php',,0
+	2022-09-08T21:45:11.6782063Z,Copying file: 'public_html/logout.php',,0
+	2022-09-08T21:45:11.6940968Z,Copying file: 'public_html/member_emails.php',,0
+	2022-09-08T21:45:11.7192712Z,Copying file: 'public_html/members.php',,0
+	2022-09-08T21:45:11.7526184Z,Copying file: 'public_html/owed_shirt.php',,0
+	2022-09-08T21:45:11.7901417Z,Copying file: 'public_html/page.php',,0
+	2022-09-08T21:45:11.8811320Z,Copying file: 'public_html/photos.php',,0
+	2022-09-08T21:45:11.9313436Z,Copying file: 'public_html/players.php',,0
+	2022-09-08T21:45:11.9894188Z,Copying file: 'public_html/rabblerabble8.php',,0
+	2022-09-08T21:45:12.0735122Z,Copying file: 'public_html/raffle.php',,0
+	2022-09-08T21:45:12.1279237Z,Copying file: 'public_html/recent_rounds.php',,0
+	2022-09-08T21:45:12.1809461Z,Copying file: 'public_html/rounds.php',,0
+	2022-09-08T21:45:12.2415823Z,Copying file: 'public_html/score_round.php',,0
+	2022-09-08T21:45:12.3317829Z,Omitting next output lines...,,0
+	2022-09-08T21:45:12.6378065Z,Finished successfully.,,0
+2022-09-08T21:45:12.7901611Z,Running post deployment command(s)...,816c8d76-7a7a-40cd-89d6-193ee7e818d8,0
+2022-09-08T21:45:13.0345231Z,Triggering recycle (preview mode disabled).,df3688fe-d847-4d78-8626-0f05e952b6d8,0
+2022-09-08T21:45:13.2764574Z,Deployment successful.,64adca48-f041-4c9e-a09e-e30b69c36eed,0

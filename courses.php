@@ -14,95 +14,189 @@ $courseA = new CSVTableMaker();
 $courseA->startRow = 1;
 $courseA->endRow = 21;
 $courseA->startCol = 0;
-$courseA->endCol = 3;
-$courseA->baseLink = "images/courses/2021/alpha/hole";
-$courseA->title = "Alpha Short to Yellow";
-$courseA->fileName = "course/2021ayout.csv";
-$courseA->linkColumn = 0;
+$courseA->endCol = 4;
+// $courseA->baseLink = "images/courses/2021/alpha/hole";
+$courseA->title = "Alpha Short to Red";
+$courseA->fileName = "course/2022DOpenAMAlphashortred.csv";
+//$courseA->linkColumn = 0;
 
 //Generate 2nd table content
 $courseB = new CSVTableMaker();
 $courseB->startRow = 23;
 $courseB->endRow = 43;
 $courseB->startCol = 0;
-$courseB->endCol = 3;
-$courseB->baseLink = "images/courses/2021/alpha/hole";
-$courseB->title = "Alpha Long to Yellow";
-$courseB->fileName = "course/2021ayout.csv";
-$courseB->linkColumn = 0;
+$courseB->endCol = 4;
+//$courseB->baseLink = "images/courses/2021/alpha/hole";
+$courseB->title = "Alpha Short to Gold";
+$courseB->fileName = "course/2022DOpenAMAlphashortred.csv";
+//$courseB->linkColumn = 0;
 
-//Generate 1st table content
+//Generate table content
 $courseC = new CSVTableMaker();
 $courseC->startRow = 45;
 $courseC->endRow = 65;
 $courseC->startCol = 0;
-$courseC->endCol = 3;
-$courseC->baseLink = "images/courses/2021/barwick/hole";
-$courseC->title = "Barwick Red";
-$courseC->fileName = "course/2021ayout.csv";
-$courseC->linkColumn = 0;
+$courseC->endCol = 4;
+//$courseC->baseLink = "images/courses/2021/barwick/hole";
+$courseC->title = "Alpha Long to Gold";
+$courseC->fileName = "course/2022DOpenAMAlphashortred.csv";
+//$courseC->linkColumn = 0;
 
-//Generate 1st table content
+//Generate table content
 $courseD = new CSVTableMaker();
 $courseD->startRow = 67;
 $courseD->endRow = 87;
 $courseD->startCol = 0;
-$courseD->endCol = 3;
-$courseD->baseLink = "images/courses/2021/barwick/hole";
-$courseD->title = "Barwick Yellow";
-$courseD->fileName = "course/2021ayout.csv";
-$courseD->linkColumn = 0;
+$courseD->endCol = 4;
+//$courseD->baseLink = "images/courses/2021/barwick/hole";
+$courseD->title = "Barwick Red";
+$courseD->fileName = "course/2022DOpenAMAlphashortred.csv";
+//$courseD->linkColumn = 0;
+
+//Generate table content
+$courseE = new CSVTableMaker();
+$courseE->startRow = 89;
+$courseE->endRow = 109;
+$courseE->startCol = 0;
+$courseE->endCol = 4;
+//$courseE->baseLink = "images/courses/2021/barwick/hole";
+$courseE->title = "Barwick Yellow";
+$courseE->fileName = "course/2022DOpenAMAlphashortred.csv";
+//$courseE->linkColumn = 0;
+
+/************** WEEKEND 2 COURSES **************************************************************/
+//Generate 1st table content
+$course2A = new CSVTableMaker();
+$course2A->startRow = 1;
+$course2A->endRow = 21;
+$course2A->startCol = 0;
+$course2A->endCol = 4;
+// $courseA->baseLink = "images/courses/2021/alpha/hole";
+$course2A->title = "Alpha Short to Gold";
+$course2A->fileName = "course/2022DOpenProlayout.csv";
+//$courseA->linkColumn = 0;
+
+//Generate table content
+$course2B = new CSVTableMaker();
+$course2B->startRow = 23;
+$course2B->endRow = 43;
+$course2B->startCol = 0;
+$course2B->endCol = 4;
+//$courseE->baseLink = "images/courses/2021/barwick/hole";
+$course2B->title = "Alpha Long to Gold";
+$course2B->fileName = "course/2022DOpenProlayout.csv";
+//$courseE->linkColumn = 0;
+
+//Generate table content
+$course2C = new CSVTableMaker();
+$course2C->startRow = 45;
+$course2C->endRow = 65;
+$course2C->startCol = 0;
+$course2C->endCol = 4;
+//$courseE->baseLink = "images/courses/2021/barwick/hole";
+$course2C->title = "Barwick Red";
+$course2C->fileName = "course/2022DOpenProlayout.csv";
+//$courseE->linkColumn = 0;
+
+//Generate table content
+$course2D = new CSVTableMaker();
+$course2D->startRow = 67;
+$course2D->endRow = 87;
+$course2D->startCol = 0;
+$course2D->endCol = 4;
+//$courseE->baseLink = "images/courses/2021/barwick/hole";
+$course2D->title = "Barwick Yellow";
+$course2D->fileName = "course/2022DOpenProlayout.csv";
+//$courseE->linkColumn = 0;
 
 ?>
 
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <h1 class="text-center">DeBary Open 2021 Courses</h1>
-        <hr>
-        <div class="row">
-            <div class="col-md-4 mx-auto">
-                <div class="card mb-3 alert-danger">
-                    <div class="card-header">General Out of Bounds Info</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">All water is casual, unless marked OB</li>
-                        <li class="list-group-item">Over fence OB and on/across entry road OB</li>
-                        <li class="list-group-item">Any strung areas OB</li>
-                    </ul>
+        <ul class="nav nav-pills my-3 justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#weekend1" type="button">Weekend 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#weekend2" type="button">Weekend 2</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="weekend1">
+                <h1 class="text-center">Am Weekend</h1>
+                <h2 class="text-center">Weekend 1 Course Info</h2>
+                <hr>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $courseA->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $courseB->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $courseC->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $courseD->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $courseE->GetTable();
+                        ?>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="weekend2">
+                <h1 class="text-center">Pro Weekend</h1>
+                <h2 class="text-center">Weekend 2 Course Info</h2>
+                <hr>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $course2A->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $course2B->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $course2C->GetTable();
+                        ?>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-12 col-xl-10">
+                        <?php
+                        echo $course2D->GetTable();
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="col-md-8 mx-auto">
-            <div class="card">
-                <div class="alert alert-primary blockquote text-center"><strong>Click on holes below to see an overhead of the hole</strong></div>
-            </div>
-        </div>
-        <hr>
-        <br />
-        <div class="row">
-            <div class="col-lg-6 col-md-12">
-        <?php
-         echo $courseA->GetTable();
-        ?>
-        </div>
-        <div class="col-lg-6 col-md-12">
-        <?php
-         echo $courseB->GetTable();
-        ?>
-</div>
-        <div class="col-lg-6 col-md-12">
-        <?php
-         echo $courseC->GetTable();
-        ?>
-</div>
-        <div class="col-lg-6 col-md-12">
-        <?php
-         echo $courseD->GetTable();
-        ?>
-        </div>
-</div>
-
         <?php include 'footer.php'; ?>
     </div>
     <!-- Optional JavaScript -->

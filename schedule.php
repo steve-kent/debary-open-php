@@ -9,98 +9,233 @@
 <body>
     <?php include 'nav.php'; ?>
     <div class="container">
-        <h1 id="title">Schedule of Events</h1>
-        <hr>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-header">Friday, November 26, 2021</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                        12:30pm - 3:00pm Early Check In
-                        </li>
-                        <li class="list-group-item">
-                        2:00pm - 2:50pm Doubles Sign Up
-                        </li>
-                        <li class="list-group-item">
-                        3:00pm Random Draw Doubles
-                        </li>
-                    </ul>
+        <ul class="nav nav-pills my-3 justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#weekend1" type="button">Weekend 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#weekend2" type="button">Weekend 2</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="weekend1">
+                <h1 class="text-center">Am Weekend</h1>
+                <h2 class="text-center">Weekend 1 Schedule of Events</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Friday, November 18, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    12:30pm - 4:30pm Early Check In
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Saturday, November 19, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    7:00am - 8:15am Check In
+                                </li>
+                                <li class="list-group-item">
+                                    8:30am Round 1 Tee Time
+                                </li>
+                                <li class="list-group-item">
+                                    2nd round tee time TBA (Lunch not provided)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Sunday, November 20, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    9:00am Round 3 Tee Time
+                                </li>
+                                <li class="list-group-item">
+                                    Awards
+                                </li>
+                                <li class="list-group-item">
+                                    Random draw doubles
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pad_me row">
+                    <h2 class="col-12 text-center">Weekend 1 Tee Assignments Schedule</h2>
+                    <br />
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Division</th>
+                                <th scope="col">Round 1</th>
+                                <th scope="col">Round 2</th>
+                                <th scope="col">Round 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">MA40</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA50</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA60</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA2</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA3</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Red</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">FA2</td>
+                                <td>Alpha Short to Red</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Red</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">FA3</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Red</td>
+                                <td>Barwick Red</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-header">Saturday, November 27, 2021</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                        7:00am - 8:15am Check In
-                        </li>
-                        <li class="list-group-item">
-                        8:30am	Round 1 Tee Time
-                        </li>
-                        <li class="list-group-item">
-                        12:10pm	TBA 2nd round (Lunch not provided)
-                        </li>
-                    </ul>
+            <div class="tab-pane fade show active" id="weekend2">
+                <h1 class="text-center">Pro Weekend</h1>
+                <h2 class="text-center">Weekend 2 Schedule of Events</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Friday, November 25, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    12:30pm - 4:30pm Early Check In
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Saturday, November 26, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    7:00am - 8:15am Check In
+                                </li>
+                                <li class="list-group-item">
+                                    8:30am Round 1 Tee Time
+                                </li>
+                                <li class="list-group-item">
+                                    2nd round tee time TBA (Lunch not provided)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">Sunday, November 27, 2022</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    9:00am Round 3 Tee Time
+                                </li>
+                                <li class="list-group-item">
+                                    Awards
+                                </li>
+                                <li class="list-group-item">
+                                    Random draw doubles
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-header">Sunday, November 28, 2021</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                        9:00am	Round 3 Tee Time
-                        </li>
-                        <li class="list-group-item">
-                        1:10pm	Awards followed by Showcase (Lunch not provided)
-                        </li>
-                    </ul>
+                <hr>
+                <div class="row pad_me row">
+                    <h2 class="col-12 text-center">Weekend 2 Tee Assignments Schedule</h2>
+                    <br />
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Division</th>
+                                <th scope="col">Round 1</th>
+                                <th scope="col">Round 2</th>
+                                <th scope="col">Round 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">MPO</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Alpha Long to Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MP40</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MP50</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>                            
+                            <tr>
+                                <td scope="row">MP60</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">FPO</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA1</td>
+                                <td>Alpha Long to Gold</td>
+                                <td>Barwick Gold</td>
+                                <td>Alpha Long to Gold</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">FA1</td>
+                                <td>Barwick Red</td>
+                                <td>Alpha Short to Gold</td>
+                                <td>Barwick Gold</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row pad_me row">
-
-            <h1 class="col-12 text-center">Tee Assignments Schedule</h1>
-            <br />
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Divisions</th>
-                        <th scope="col">Round 1</th>
-                        <th scope="col">Round 2</th>
-                        <th scope="col">Round 3</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">MPO, MP40, MP50, MA1</td>
-                        <td>Alpha Long to Yellow</td>
-                        <td>Barwick Red</td>
-                        <td>Alpha Long to Yellow</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">FPO, FA1, MA40</td>
-                        <td>Alpha Short to Yellow</td>
-                        <td>Barwick Red</td>
-                        <td>Alpha Short to Yellow</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">MA50, MA2, MA3</td>
-                        <td>Barwick Red</td>
-                        <td>Alpha Short to Yellow</td>
-                        <td>Barwick Yellow</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">FA2, FA3</td>
-                        <td>Barwick Red</td>
-                        <td>Alpha Short to Yellow</td>
-                        <td>Barwick Red</td>
-                    </tr>   
-                </tbody>
-            </table>
-        </div>
-            <?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
