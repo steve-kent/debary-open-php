@@ -11,9 +11,9 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col text-center">
-            <a id="sponsor" class="btn btn-secondary d-inline-block mt-4" href="become_a_sponsor.php">
-                Become a Hole Sponsor!
-            </a>
+                <a id="sponsor" class="btn btn-secondary d-inline-block mt-4" href="become_a_sponsor.php">
+                    Become a Hole Sponsor!
+                </a>
             </div>
         </div>
         <div class="sponsor_type row card-deck pad_me">
