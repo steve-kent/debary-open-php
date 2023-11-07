@@ -21,6 +21,10 @@
 }
 .alert {
     margin: 0;
+    display: inline-block;
+}
+.btn-secondary {
+    color:#fff;
 }
 .clickable-row {
     cursor: pointer;

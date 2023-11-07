@@ -10,30 +10,16 @@
     <?php include 'nav.php'; ?>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col col-lg-6 col-md-8  mt-3">
-                <div class="card">
-                    <div class="card-header">
-                        DeBary Open 2022 Hole Sponsorship
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Become a Hole Sponsor</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cost: $35 (includes BOTH weekends)</li>
-                        <li class="list-group-item">You will get a sign on a hole with the text and/or logo that you provide</li>
-                        <li class="list-group-item">Click the Get Started button below pay</li>
-                        <li class="list-group-item">Send your text and/or logo to sponsorships@debarydiscgolf.org</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="https://py.pl/16ubva" class="btn btn-primary">Get Started!</a>
-                    </div>
-                </div>
+            <div class="col text-center">
+            <a id="sponsor" class="btn btn-secondary d-inline-block mt-4" href="become_a_sponsor.php">
+                Become a Hole Sponsor!
+            </a>
             </div>
         </div>
         <div class="sponsor_type row card-deck pad_me">
             <h1 class="title pad_me">Tournament Sponsors</h1>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
+                <div class="card h-100">
                     <div class="card-header">Disc Golf Center</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
@@ -45,31 +31,7 @@
                 </div>
             </div>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Central 28 Brewery</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="http://central28beer.com/">
-                                <img src="images/sponsors/2020/c28.png" alt="Central 28 Logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
-                    <div class="card-header">Prodigy</div>
-                    <div class="card-body d-flex align-items-center justify-content-center">
-                        <div class="sponsor_img">
-                            <a href="https://www.prodigydisc.com/">
-                                <img src="images/sponsors/prodigy.jpg" alt="Prodigy Disc">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card border-primary h-100">
+                <div class="card h-100">
                     <div class="card-header">Construction Unlimited</div>
                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                         <div class="sponsor_img col-12">
@@ -77,7 +39,21 @@
                                 <img src="images/sponsors/Construction_Unlimited.webp" alt="Construction Unlimited Logo">
                             </a>
                         </div>
-                        <div class="row"><p class="col-12">For your roof needs call Greg <a href="tel:3025459303">302-545-9303</a></p></div>
+                        <div class="row">
+                            <p class="col-12">For your roof needs call Greg <a href="tel:3025459303">302-545-9303</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-5 col-md-12 mb-3">
+                <div class="card h-100">
+                    <div class="card-header">Central 28 Brewery</div>
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <div class="sponsor_img">
+                            <a href="http://central28beer.com/">
+                                <img src="images/sponsors/2020/c28.png" alt="Central 28 Logo">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,7 +85,7 @@
             
 -->
         </div>
-        
+
         <!-- Hole Sponsors ****
         <div class="sponsor_type row">
             <h1 class="title pad_me">Hole Sponsors</h1>

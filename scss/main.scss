@@ -1,9 +1,9 @@
 
 // Our Custom sass code
-$theme-colors: (
-  "primary": #00519a,
-  "danger": coral
-);
+//$theme-colors: (
+  $primary: #00519a;
+  $secondary: #03b4ea;
+//);
 
 // Can run this command to compile the scss files
 // sass scss/main.scss css/main.css

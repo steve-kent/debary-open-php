@@ -9,105 +9,40 @@
 
 require('lib/csv_tablemaker.php');
 
+/************** WEEKEND 1 COURSES **************************************************************/
 //Generate 1st table content
-$courseA = new CSVTableMaker();
-$courseA->startRow = 1;
-$courseA->endRow = 21;
-$courseA->startCol = 0;
-$courseA->endCol = 4;
-// $courseA->baseLink = "images/courses/2021/alpha/hole";
-$courseA->title = "Alpha Short to Red";
-$courseA->fileName = "course/2022DOpenAMAlphashortred.csv";
-//$courseA->linkColumn = 0;
+$alphaWeekend1 = new CSVTableMaker();
+$alphaWeekend1->startRow = 2;
+$alphaWeekend1->endRow = 21;
+$alphaWeekend1->startCol = 0;
+$alphaWeekend1->endCol = 6;
+$alphaWeekend1->title = "Alpha Red Baskets";
+$alphaWeekend1->fileName = "course/2023/Layout info - Wk1 _ Alpha.csv";
 
-//Generate 2nd table content
-$courseB = new CSVTableMaker();
-$courseB->startRow = 23;
-$courseB->endRow = 43;
-$courseB->startCol = 0;
-$courseB->endCol = 4;
-//$courseB->baseLink = "images/courses/2021/alpha/hole";
-$courseB->title = "Alpha Short to Gold";
-$courseB->fileName = "course/2022DOpenAMAlphashortred.csv";
-//$courseB->linkColumn = 0;
-
-//Generate table content
-$courseC = new CSVTableMaker();
-$courseC->startRow = 45;
-$courseC->endRow = 65;
-$courseC->startCol = 0;
-$courseC->endCol = 4;
-//$courseC->baseLink = "images/courses/2021/barwick/hole";
-$courseC->title = "Alpha Long to Gold";
-$courseC->fileName = "course/2022DOpenAMAlphashortred.csv";
-//$courseC->linkColumn = 0;
-
-//Generate table content
-$courseD = new CSVTableMaker();
-$courseD->startRow = 67;
-$courseD->endRow = 87;
-$courseD->startCol = 0;
-$courseD->endCol = 4;
-//$courseD->baseLink = "images/courses/2021/barwick/hole";
-$courseD->title = "Barwick Red";
-$courseD->fileName = "course/2022DOpenAMAlphashortred.csv";
-//$courseD->linkColumn = 0;
-
-//Generate table content
-$courseE = new CSVTableMaker();
-$courseE->startRow = 89;
-$courseE->endRow = 109;
-$courseE->startCol = 0;
-$courseE->endCol = 4;
-//$courseE->baseLink = "images/courses/2021/barwick/hole";
-$courseE->title = "Barwick Yellow";
-$courseE->fileName = "course/2022DOpenAMAlphashortred.csv";
-//$courseE->linkColumn = 0;
+$barwickWeekend1 = new CSVTableMaker();
+$barwickWeekend1->startRow = 2;
+$barwickWeekend1->endRow = 21;
+$barwickWeekend1->startCol = 0;
+$barwickWeekend1->endCol = 6;
+$barwickWeekend1->title = "Barwick Red Baskets";
+$barwickWeekend1->fileName = "course/2023/Layout info - Wk1 _ Barwick.csv";
 
 /************** WEEKEND 2 COURSES **************************************************************/
-//Generate 1st table content
-$course2A = new CSVTableMaker();
-$course2A->startRow = 1;
-$course2A->endRow = 21;
-$course2A->startCol = 0;
-$course2A->endCol = 4;
-// $courseA->baseLink = "images/courses/2021/alpha/hole";
-$course2A->title = "Alpha Short to Gold";
-$course2A->fileName = "course/2022DOpenProlayout.csv";
-//$courseA->linkColumn = 0;
+$alphaWeekend2 = new CSVTableMaker();
+$alphaWeekend2->startRow = 2;
+$alphaWeekend2->endRow = 21;
+$alphaWeekend2->startCol = 0;
+$alphaWeekend2->endCol = 6;
+$alphaWeekend2->title = "Alpha Red Baskets";
+$alphaWeekend2->fileName = "course/2023/Layout info - Wk2 _ Alpha.csv";
 
-//Generate table content
-$course2B = new CSVTableMaker();
-$course2B->startRow = 23;
-$course2B->endRow = 43;
-$course2B->startCol = 0;
-$course2B->endCol = 4;
-//$courseE->baseLink = "images/courses/2021/barwick/hole";
-$course2B->title = "Alpha Long to Gold";
-$course2B->fileName = "course/2022DOpenProlayout.csv";
-//$courseE->linkColumn = 0;
-
-//Generate table content
-$course2C = new CSVTableMaker();
-$course2C->startRow = 45;
-$course2C->endRow = 65;
-$course2C->startCol = 0;
-$course2C->endCol = 4;
-//$courseE->baseLink = "images/courses/2021/barwick/hole";
-$course2C->title = "Barwick Red";
-$course2C->fileName = "course/2022DOpenProlayout.csv";
-//$courseE->linkColumn = 0;
-
-//Generate table content
-$course2D = new CSVTableMaker();
-$course2D->startRow = 67;
-$course2D->endRow = 87;
-$course2D->startCol = 0;
-$course2D->endCol = 4;
-//$courseE->baseLink = "images/courses/2021/barwick/hole";
-$course2D->title = "Barwick Yellow";
-$course2D->fileName = "course/2022DOpenProlayout.csv";
-//$courseE->linkColumn = 0;
+$barwickWeekend2 = new CSVTableMaker();
+$barwickWeekend2->startRow = 2;
+$barwickWeekend2->endRow = 21;
+$barwickWeekend2->startCol = 0;
+$barwickWeekend2->endCol = 6;
+$barwickWeekend2->title = "Barwick Red Baskets";
+$barwickWeekend2->fileName = "course/2023/Layout info - Wk 2 _ Barwick.csv";
 
 ?>
 
@@ -123,96 +58,72 @@ $course2D->fileName = "course/2022DOpenProlayout.csv";
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade" id="weekend1">
-                <h1 class="text-center">Am Weekend</h1>
+            <div class="tab-pane fade show active" id="weekend1">
                 <h2 class="text-center">Weekend 1 Course Info</h2>
-                <hr>
-                <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $courseA->GetTable();
-                        ?>
-                    </div>
+                <div class="text-center">
+                    <div class="alert alert-danger p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
                 </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $courseB->GetTable();
-                        ?>
+                <div class="text-center">
+                    <div class="alert alert-danger p-2 mt-2">All Red Baskets</d>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $courseC->GetTable();
-                        ?>
+                    <hr>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-12 col-xl-10">
+                            <?php
+                            echo $alphaWeekend1->GetTable();
+                            ?>
+                        </div>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $courseD->GetTable();
-                        ?>
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $courseE->GetTable();
-                        ?>
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-12 col-xl-10">
+                            <?php
+                            echo $barwickWeekend1->GetTable();
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade show active" id="weekend2">
+            <div class="tab-pane fade" id="weekend2">
                 <h1 class="text-center">Pro Weekend</h1>
                 <h2 class="text-center">Weekend 2 Course Info</h2>
-                <hr>
-                <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $course2A->GetTable();
-                        ?>
+                <div class="text-center">
+                    <div class="alert alert-danger p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
+                    <div class="text-center">
+                        <div class="alert alert-warning p-2 mt-2">All Gold Baskets</div>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $course2B->GetTable();
-                        ?>
+                    <hr>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-12 col-xl-10">
+                            <?php
+                            echo $alphaWeekend2->GetTable();
+                            ?>
+                        </div>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $course2C->GetTable();
-                        ?>
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-12 col-xl-10">
-                        <?php
-                        echo $course2D->GetTable();
-                        ?>
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-12 col-xl-10">
+                            <?php
+                            echo $barwickWeekend2->GetTable();
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
+            <?php include 'footer.php'; ?>
         </div>
-        <?php include 'footer.php'; ?>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <!-- Script to link table rows to images -->
-    <script>
-        jQuery(document).ready(function($) {
-            $(".clickable-row").click(function() {
-                window.location = $(this).data("href");
+        <!-- Script to link table rows to images -->
+        <script>
+            jQuery(document).ready(function($) {
+                $(".clickable-row").click(function() {
+                    window.location = $(this).data("href");
+                });
             });
-        });
-    </script>
+        </script>
 </body>
 
 </html>
