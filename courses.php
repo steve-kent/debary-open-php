@@ -33,7 +33,7 @@ $alphaWeekend2->startRow = 2;
 $alphaWeekend2->endRow = 21;
 $alphaWeekend2->startCol = 0;
 $alphaWeekend2->endCol = 6;
-$alphaWeekend2->title = "Alpha Red Baskets";
+$alphaWeekend2->title = "Alpha Yellow Baskets";
 $alphaWeekend2->fileName = "course/2023/Layout info - Wk2 _ Alpha.csv";
 
 $barwickWeekend2 = new CSVTableMaker();
@@ -41,7 +41,7 @@ $barwickWeekend2->startRow = 2;
 $barwickWeekend2->endRow = 21;
 $barwickWeekend2->startCol = 0;
 $barwickWeekend2->endCol = 6;
-$barwickWeekend2->title = "Barwick Red Baskets";
+$barwickWeekend2->title = "Barwick Yellow Baskets";
 $barwickWeekend2->fileName = "course/2023/Layout info - Wk 2 _ Barwick.csv";
 
 ?>
