@@ -51,14 +51,14 @@ $barwickWeekend2->fileName = "course/2023/Layout info - Wk 2 _ Barwick.csv";
     <div class="container">
         <ul class="nav nav-pills my-3 justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#weekend1" type="button">Weekend 1</a>
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#weekend1" type="button">Weekend 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#weekend2" type="button">Weekend 2</a>
+                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#weekend2" type="button">Weekend 2</a>
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="weekend1">
+            <div class="tab-pane fade" id="weekend1">
                 <h2 class="text-center">Weekend 1 Course Info</h2>
                 <div class="text-center">
                     <div class="alert alert-danger p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
@@ -83,7 +83,7 @@ $barwickWeekend2->fileName = "course/2023/Layout info - Wk 2 _ Barwick.csv";
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="weekend2">
+            <div class="tab-pane fade show active" id="weekend2">
                 <h1 class="text-center">Pro Weekend</h1>
                 <h2 class="text-center">Weekend 2 Course Info</h2>
                 <div class="text-center">
