@@ -58,6 +58,30 @@
                 </div>
             </div>
         </div>
+                <!-- Hole Sponsors **** -->
+        <div class="sponsor_type row">
+            <h1 class="title pad_me">Sponsors</h1>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Nabil and Regina Armaly</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Mike Skees</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">DELINTZ Dryer Vent Cleaning Service</div>
+                </div>
+            </div>
+            <div class="sponsor col-lg-3 col-sm-4 mb-3">
+                <div class="card border-primary">
+                    <div class="card-header">Paul Kiersnowski</div>
+                </div>
+            </div>
+        </div>
 
         <?php include 'footer.php'; ?>
 
