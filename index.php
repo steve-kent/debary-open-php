@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'header.php'; ?>
-    <title>DeBary Open 2023</title>
+    <title>DeBary Open XII</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         </div>
         <div class="row pad_me">
             <div class="col-12" id="logo">
-                <img src="images/DeBaryOpenLogo2023.jpg" alt="DeBary Open 2023 Logo">
+                <img src="images/DO2024.png" alt="DeBary Open XII Logo">
             </div>
         </div>
 

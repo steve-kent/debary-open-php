@@ -32,21 +32,6 @@
             </div>
             <div class="sponsor col-lg-5 col-md-12 mb-3">
                 <div class="card h-100">
-                    <div class="card-header">Construction Unlimited</div>
-                    <div class="card-body d-flex align-items-center justify-content-center flex-column">
-                        <div class="sponsor_img col-12">
-                            <a href="https://www.curoof.com/" class="col-12">
-                                <img src="images/sponsors/Construction_Unlimited.webp" alt="Construction Unlimited Logo">
-                            </a>
-                        </div>
-                        <div class="row">
-                            <p class="col-12">For your roof needs call Greg <a href="tel:3025459303">302-545-9303</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sponsor col-lg-5 col-md-12 mb-3">
-                <div class="card h-100">
                     <div class="card-header">Central 28 Brewery</div>
                     <div class="card-body d-flex align-items-center justify-content-center">
                         <div class="sponsor_img">
@@ -59,6 +44,7 @@
             </div>
         </div>
                 <!-- Hole Sponsors **** -->
+                 <!--
         <div class="sponsor_type row">
             <h1 class="title pad_me">Sponsors</h1>
             <div class="sponsor col-lg-3 col-sm-4 mb-3">
@@ -82,6 +68,7 @@
                 </div>
             </div>
         </div>
+-->
 
         <?php include 'footer.php'; ?>
 
