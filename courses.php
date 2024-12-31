@@ -16,11 +16,10 @@ $alphaWeekend1->startRow = 1;
 $alphaWeekend1->endRow = 20;
 // $alphaWeekend1->startCol = 0;
 // $alphaWeekend1->endCol = 3;
-$alphaWeekend1->columnsToInclude = [0, 1, 2, 3, 8];
+$alphaWeekend1->columnsToInclude = [0, 1, 2, 3, 9];
 $alphaWeekend1->title = "Alpha Gold Baskets";
-$alphaWeekend1->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BKQnWtaTrlRIa8PKDBgM60dMXwJaXqbY5UE/export?gid=1219123311&format=csv";
-
-$barwickWeekend1 = new CSVTableMaker();
+$alphaWeekend1->fileName = "course/2024/alpha.csv";
+/* $barwickWeekend1 = new CSVTableMaker();
 $barwickWeekend1->startRow = 1;
 $barwickWeekend1->endRow = 20;
 //$barwickWeekend1->startCol = 0;
@@ -28,23 +27,23 @@ $barwickWeekend1->endRow = 20;
 $barwickWeekend1->columnsToInclude = [0, 1, 2, 3, 8];
 $barwickWeekend1->title = "Barwick Gold Baskets";
 $barwickWeekend1->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BKQnWtaTrlRIa8PKDBgM60dMXwJaXqbY5UE/export?gid=1020387442&format=csv";
-
+ */
 /************** WEEKEND 2 COURSES **************************************************************/
 $alphaWeekend2 = new CSVTableMaker();
 $alphaWeekend2->startRow = 1;
 $alphaWeekend2->endRow = 20;
-$alphaWeekend2->startCol = 4;
-$alphaWeekend2->endCol = 8;
+$alphaWeekend2->startCol = 5;
+$alphaWeekend2->endCol = 10;
 $alphaWeekend2->title = "Alpha Red Baskets";
-$alphaWeekend2->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BKQnWtaTrlRIa8PKDBgM60dMXwJaXqbY5UE/export?gid=1219123311&format=csv";
+$alphaWeekend2->fileName = "course/2024/alpha.csv";
 
 $barwickWeekend2 = new CSVTableMaker();
-$barwickWeekend2->startRow = 2;
+$barwickWeekend2->startRow = 1;
 $barwickWeekend2->endRow = 20;
-$barwickWeekend2->startCol = 4;
-$barwickWeekend2->endCol = 8;
+$barwickWeekend2->startCol = 0;
+$barwickWeekend2->endCol = 5;
 $barwickWeekend2->title = "Barwick Red Baskets";
-$barwickWeekend2->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BKQnWtaTrlRIa8PKDBgM60dMXwJaXqbY5UE/export?gid=1020387442&format=csv";
+$barwickWeekend2->fileName = "course/2024/barwick.csv";
 
 ?>
 
@@ -64,7 +63,7 @@ $barwickWeekend2->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BK
                 <h1 class="text-center">Gold Weekend</h1>
                 <h2 class="text-center">Weekend 1 Course Info</h2>
                 <div class="text-center">
-                    <div class="alert alert-danger p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
+                    <div class="alert alert-info p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
                 </div>
                 <div class="text-center">
                     <div class="alert alert-warning p-2 mt-2">All Gold Baskets</div>
@@ -77,19 +76,19 @@ $barwickWeekend2->fileName = "https://docs.google.com/spreadsheets/d/1ZNim5tj-BK
                         ?>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-3">
+                <!-- <div class="row justify-content-center mt-3">
                     <div class="col-12 col-xl-10">
-                        <?php
-                        echo $barwickWeekend1->GetTable();
-                        ?>
+                         <?php
+                        // echo $barwickWeekend1->GetTable();
+                        ?> 
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="tab-pane fade" id="weekend2">
                 <h1 class="text-center">Red Weekend</h1>
                 <h2 class="text-center">Weekend 2 Course Info</h2>
                 <div class="text-center">
-                    <div class="alert alert-danger p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
+                    <div class="alert alert-info p-2">Over chain link fences OB. Water casual unless noted otherwise.</div>
                     <div class="text-center">
                         <div class="alert alert-danger p-2 mt-2">All Red Baskets</div>
                     </div>

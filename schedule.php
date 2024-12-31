@@ -69,10 +69,7 @@
                 <hr>
                 <div class="row pad_me row">
                     <h2 class="col-12 text-center">Weekend 1 Tee Assignments Schedule</h2>
-                    <div class="col-12 text-center">
-                        <div class="alert alert-primary m-2 p-2" role="alert">Coming Soon!</div>
-                    </div>
-                    <!--
+                    
                     <div class="text-center">
                         <div class="alert alert-warning p-2">All Gold Baskets</div>
                     </div>
@@ -88,56 +85,50 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row">MA40</td>
-                                <td>Barwick Long</td>
+                                <td scope="row">MPO</td>
+                                <td>Alpha Long</td>
                                 <td>Alpha Short</td>
                                 <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">MA50</td>
-                                <td>Barwick Long</td>
+                                <td scope="row">FPO</td>
+                                <td>Alpha Short</td>
+                                <td>Alpha Short</td>
+                                <td>Alpha Short</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MP40</td>
+                                <td>Alpha Long</td>
                                 <td>Alpha Short</td>
                                 <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">MA60</td>
-                                <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                                <td>Barwick Short</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">MA70</td>
-                                <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                                <td>Barwick Short</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">MA2</td>
-                                <td>Barwick Long</td>
+                                <td scope="row">MP50</td>
+                                <td>Alpha Long</td>
                                 <td>Alpha Short</td>
                                 <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">FA2</td>
-                                <td>Barwick Short</td>
+                                <td scope="row">MP60</td>
                                 <td>Alpha Short</td>
                                 <td>Alpha Short</td>
+                                <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">MA3</td>
+                                <td scope="row">MA1</td>
+                                <td>Alpha Long</td>
                                 <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                                <td>Barwick Long</td>
+                                <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">FA3</td>
+                                <td scope="row">FA1</td>
                                 <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                                <td>Barwick Short</td>
+                                <td>Alpha Short</td>
+                                <td>Alpha Short</td>
                             </tr>
                         </tbody>
                     </table>
-                    -->
+                    
                 </div>
             </div>
             <div class="tab-pane fade" id="weekend2">
@@ -191,11 +182,11 @@
                 <hr>
                 <div class="row pad_me row">
                     <h2 class="col-12 text-center">Weekend 2 Tee Assignments Schedule</h2>
-
+<!--
                     <div class="col-12 text-center">
                         <div class="alert alert-primary p-2 m-2" role="alert">Coming Soon!</div>
                     </div>
-                    <!--
+     -->               
                     <div class="text-center">
                         <div class="alert alert-danger p-2">All Red Baskets</div>
                     </div>
@@ -211,56 +202,56 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row">MPO</td>
-                                <td>Alpha Long</td>
+                                <td scope="row">MA40</td>
                                 <td>Barwick Long</td>
                                 <td>Alpha Long</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">FPO</td>
-                                <td>Barwick Short</td>
-                                <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">MP40</td>
-                                <td>Barwick Short</td>
                                 <td>Alpha Long</td>
-                                <td>Barwick Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">MP50</td>
-                                <td>Barwick Short</td>
+                                <td scope="row">MA50</td>
+                                <td>Barwick Long</td>
                                 <td>Alpha Short</td>
+                                <td>Alpha Long</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA60</td>
+                                <td>Alpha Short</td>
+                                <td>Barwick Short</td>
                                 <td>Barwick Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">FP50</td>
+                                <td scope="row">MA70</td>
                                 <td>Barwick Short</td>
                                 <td>Alpha Short</td>
-                                <td>Barwick Short</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">MP60</td>
-                                <td>Barwick Short</td>
                                 <td>Alpha Short</td>
-                                <td>Barwick Short</td>
                             </tr>
                             <tr>
-                                <td scope="row">MA1</td>
-                                <td>Alpha Long</td>
+                                <td scope="row">MA2</td>
                                 <td>Barwick Long</td>
                                 <td>Alpha Long</td>
+                                <td>Alpha Long</td>
                             </tr>
                             <tr>
-                                <td scope="row">FA1</td>
+                                <td scope="row">FA2</td>
                                 <td>Barwick Short</td>
                                 <td>Alpha Short</td>
+                                <td>Alpha Short</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">MA3</td>
+                                <td>Alpha Short</td>
+                                <td>Barwick Short</td>
+                                <td>Barwick Short</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">FA3</td>
+                                <td>Alpha Short</td>
+                                <td>Barwick Short</td>
                                 <td>Barwick Short</td>
                             </tr>
                         </tbody>
-                    </table>
--->
+                    </table>                 
+
                 </div>
             </div>
         </div>
