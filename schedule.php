@@ -28,7 +28,7 @@
                             <div class="card-header">Friday, January 10th, 2025</div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    12:00pm - 2:45pm Early Check-In @ Disc Golf Center
+                                    12:00pm - 2:45pm Early Check-In
                                 </li>
                                 <li class="list-group-item">
                                     3:00pm - 6:00pm Friday Doubles / 10$ entry
@@ -41,7 +41,7 @@
                             <div class="card-header">Saturday, January 11th, 2025</div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    7:00am - 8:15am Check-In @ Course
+                                    7:00am - 8:15am Check-In
                                 </li>
                                 <li class="list-group-item">
                                     8:30am Round 1 (no player meeting)
@@ -141,7 +141,7 @@
                             <div class="card-header">Friday, January 17th, 2025</div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    12:00pm - 2:45pm Early Check-In @ Disc Golf Center
+                                    12:00pm - 2:45pm Early Check-In
                                 </li>
                                 <li class="list-group-item">
                                     3:00pm - 6:00pm Friday Doubles / 10$ entry
@@ -154,7 +154,7 @@
                             <div class="card-header">Saturday, January 18th, 2025</div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    7:00am - 8:15am Check-In (at course)
+                                    7:00am - 8:15am Check-In
                                 </li>
                                 <li class="list-group-item">
                                     8:30am Round 1 (no player meeting)
