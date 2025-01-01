@@ -13,7 +13,7 @@
             <div class="col col-lg-6 col-md-8  mt-3">
                 <div class="card">
                     <div class="card-header">
-                        DeBary Open 2023 Hole Sponsorship
+                        DeBary Open XII Hole Sponsorship
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Become a Hole Sponsor</h5>
